@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OICT_Test\OICT_Test.csproj" />
+    <ProjectReference Include="..\OICT_TestPro\OICT_Test.csproj" />
   </ItemGroup>
 
   <ItemGroup>
