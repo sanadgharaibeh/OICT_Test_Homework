@@ -5,19 +5,19 @@ This project provides an API endpoint to check the status and validity of a user
 
 **Table of content**
 
-* [Requirements](https://docs.google.com/document/d/1QFJ6fBUjrImk_QmxEjvnk3WB_N4zGpXI-PSYvn1kN3c/edit#bookmark=id.1c7o9nb30le9)
+* Requirements
 
-* [Setup](https://docs.google.com/document/d/1QFJ6fBUjrImk_QmxEjvnk3WB_N4zGpXI-PSYvn1kN3c/edit#bookmark=id.ypgfan5xd6x7)
+* Setup
 
-* [Running the Project](https://docs.google.com/document/d/1QFJ6fBUjrImk_QmxEjvnk3WB_N4zGpXI-PSYvn1kN3c/edit#bookmark=id.goiy05k55c9q)
+* Running the Project
 
-* Discovering [API](https://docs.google.com/document/d/1QFJ6fBUjrImk_QmxEjvnk3WB_N4zGpXI-PSYvn1kN3c/edit#bookmark=id.5utor35saw1u) References
+* Discovering API References
 
 * Contributors
 
 **Requirements**
 
-* [.NET 7 SDK](https://dotnet.microsoft.com/download/dotnet/7.0) or later
+* .NET 7 SDK or later
 
 * IDE or editor of your choice (e.g., Visual Studio)
 
@@ -27,22 +27,20 @@ This project provides an API endpoint to check the status and validity of a user
 
 In order to properly setup this project, you will need to follow these steps
 
-1- Clone the repository
+1- Clone the repository and navigate to root folder:
 
-git clone \<your-repo-url\>  
-	cd \<repository-folder\>
+	git clone https://github.com/sanadgharaibeh/OICT_Test_Homework
 
-2- Restore dependencies:
+2- Restore dependencies, Inside your command line editor run the following command:
 
-Inside your command line editor run the following command  
 	dotnet restore
 
-3- Build the project:
+3- Build the project, Inside your command line editor run the following command  :
 
-	Inside your command line editor run the following command  
+	
 	dotnet build
 
-[**Running the Project**](https://docs.google.com/document/d/1QFJ6fBUjrImk_QmxEjvnk3WB_N4zGpXI-PSYvn1kN3c/edit#bookmark=id.goiy05k55c9q)
+**Running the Project**
 
 To start the project follow these steps.
 
@@ -52,7 +50,7 @@ To start the project follow these steps.
 
 2- Navigate to url:
 
-[https://localhost:7098/swagger/index.html](https://localhost:7098/swagger/index.html)
+	https://localhost:7098/swagger/index.html
 
 **Discovering [API](https://docs.google.com/document/d/1QFJ6fBUjrImk_QmxEjvnk3WB_N4zGpXI-PSYvn1kN3c/edit#bookmark=id.5utor35saw1u) References**
 
@@ -72,8 +70,8 @@ POST /api/Auth/Token
   * 200 OK – Returns   
     {"token": "BELQ2HIfO0C2tyHxMKQBwA==","expires": "2025-08-18T20:53:49.8124338Z"}  
   * 401 Unauthorized – If the user is not authorized.
-
-  Neplatné uživatelské jméno nebo heslo
+    
+      Neplatné uživatelské jméno nebo heslo
 
 **CARD API**
 
@@ -110,7 +108,6 @@ Get /Check
 
 **Contributors**
 
- 	Sanad Gharaibeh 
-
-	sanad.gharaibeh@gmail.com
+ Sanad Gharaibeh 
+sanad.gharaibeh@gmail.com
 
